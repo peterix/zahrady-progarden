@@ -1,0 +1,286 @@
+/**************************************************************
+   AUTHOR:  Pat Heard (fullahead.org)
+   DATE:    2006.09.12 
+   PURPOSE: Styles the html elements
+ **************************************************************/
+
+/* Forces horizontal scrollbar on in Mozilla */
+html {
+  margin-bottom: 1px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  /*font: 400 0.8em georgia, serif;*/
+  font: 400 0.8em georgia, serif;
+  line-height: 180%;
+
+  /*background: url(../img/bg/body.jpg) repeat top left;*/
+/*background: #F9F9F9;*/
+/*background: #808080;*/
+background:#364532;
+/*background: #336825;*/
+  /*background: #6D6864;*/
+  /* color: #6D6864; */
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, dl {
+  margin: 0px;
+  padding: 10px 0;
+}
+
+p.footer{
+  text-indent: 0px;
+}
+
+
+h1 {   
+  clear: both;
+  font: 400 1.9em sans-serif;
+  color: #532406;
+}
+
+h2 {
+  clear: both;
+  font: 400 1.3em sans-serif;
+  color: #336825;
+}
+
+h3 {
+  font: 700 1.1em sans-serif;
+  color: #8F512A;
+}
+
+h4 {
+  font: 400 0.9em sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: /*#5E9040; */ #336825;
+  border-bottom: 1px solid /*#B8E78B;*/#336825;
+}
+
+/*a:visited {
+  background-color: #F1FFE3;
+}*/
+
+a:hover {
+  color: #3C5D29;
+/*  background-color: #F1FFE3;*/
+  border-bottom: 1px solid #4A6E35;
+}
+
+a img {
+border:none;
+}
+a img.bordered {
+border:1px solid #336825;
+}
+
+ol {  
+  margin: 10px 30px;
+  padding: 0 30px;
+
+  font-size: 1.4em;
+  color: #532406;
+  background-color: #FFF;
+}
+
+ol span {
+  font-size: 0.7em;
+  color: #6D6864;
+}
+
+ul {
+  margin: 10px 30px;
+  padding: 0 30px 0 5px;
+  list-style: none;
+}
+
+ul li {
+  padding-left: 25px;
+  background: url(../img/bg/bullet.gif) no-repeat;
+  background-position: 0 3px;
+}
+
+ul ul li {
+  padding-left: 25px;
+  background: url(../img/bg/bullet2.gif) no-repeat !important;
+  background-position: 0 3px;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #DDD;
+}
+
+blockquote {
+  margin: 10px 0;
+  background-color: #F1FFE3;
+  border-bottom: 1px solid #B8E78B;
+}
+
+blockquote p {
+  margin: 0.4em 0.8em;
+}
+
+del {
+  color: #AAA;
+}
+
+code {
+  margin: 15px 0;
+  padding: 10px;
+  display: block;
+  overflow: auto;
+  
+  font: 400 1em courier, monospace;
+  line-height: 120%;
+  white-space: pre;
+  
+  background: #F4F4F4;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+
+
+/**************************************************************
+   Tables
+ **************************************************************/
+/*
+table {
+  width: 100%;
+  margin-bottom: 10px;  
+  
+  font-size: 1em;
+  border-collapse: collapse;
+}
+
+table caption {
+  margin-top: 10px;
+  padding: 0 0 0.5em 3px;
+
+  font: 400 0.8em georgia, sans-serif;
+  text-align: left;  
+}
+
+table th,
+table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 4px 7px !important;
+  padding: 6px 10px;
+}
+
+
+thead th {
+  background-color: #F1FFE3;
+  border-bottom: 1px solid #B8E78B;
+}
+
+tbody tr.dark {
+  background-color: #F5F5F5;
+}
+
+tbody td {
+  border-bottom: 1px solid #DDD;
+}
+
+tbody tr:hover {
+  background-color: #FBFEDF;
+}
+*/
+/**************************************************************
+   Form Elements
+ **************************************************************/
+
+label {
+  float: left;
+  text-align: right;
+  width: 9em;
+  padding-right: 1em;
+}
+
+
+input,
+textarea,
+select {
+  padding: 4px;
+  font: 400 1em georgia, sans-serif;
+  
+  color: #666;
+  background: #FFF;
+  border-width: 1px;
+  border-style: solid;
+  width:100%;
+  border-color: #888 #DDD #DDD #888;  
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {  
+  padding: 3px;
+  color: #000;
+  background: #F1FFE3;
+  border-width: 2px;
+}
+
+input.button {
+  padding: 1px 10px;
+  width: 100px;
+  font: 400 1em georgia, sans-serif;
+  cursor: pointer;
+
+  color: #fff;
+  background: #336825;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B8E78B #2D5018 #2D5018 #B8E78B;
+  float: right;
+  margin-right:6px;
+}
+
+.required {
+  cursor: help;
+  border-bottom: 1px solid #CCC;
+}
+
+
+
+/**************************************************************
+   Images
+ **************************************************************/
+
+img.floatRight {
+  margin: 5px 0px 10px 15px;
+  padding: 5px;
+  background: #BAAAA1;
+}
+
+img.floatLeft {
+  margin: 5px 15px 10px 0px;
+}
+/*a img {
+  border: none !important;
+}*/
+/*
+a img.bordered {  
+  border: 4px solid #D5C9C2;
+}
+
+a:hover img.bordered {  
+  border: 4px solid #BAAAA1;
+}
+*/

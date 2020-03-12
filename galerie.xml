@@ -1,0 +1,35 @@
+<galerie>
+  <set name="Galerie 1" img="1"> <!-- img je obrazek pouzity v seznamu galerii, neco jako takova 'vizitka' galerie -->
+    <node title="Popiska obrazku 1" description="Podrobny popis obrazku v HTML" img="1" />
+    <node title="Popiska obrazku 2" description="Podrobny popis obrazku v HTML" img="1" />
+    <node title="Popiska obrazku 3" description="Podrobny popis obrazku v HTML" img="2" />
+    <node title="Popiska obrazku 4" description="Podrobny popis obrazku v HTML" img="3" />
+    <node title="Popiska obrazku 5" description="Podrobny popis obrazku v HTML" img="4" />
+    <node title="Popiska obrazku 6" description="Podrobny popis obrazku v HTML" img="5" />
+  </set>
+  <set name="Galerie 2" img="7">
+    <node title="Nadpis prvni casti" />
+    <node title="Popiska obrazku 7" description="Podrobny popis obrazku v HTML" img="7" />
+    <node title="Popiska obrazku 8" description="&lt;p&gt;&lt;b&gt;Podrobny&lt;/b&gt; popis obrazku v &lt;i&gt;HTML&lt;/i&gt;&lt;/p&gt;" img="8" />
+    <node title="Nadpis druhe casti" />
+    <node title="" description="" img="9" /> <!-- test prazdnych poli -->
+    <node title="   " description="  " img="10" />
+    <node title="Popiska obrazku 11" description="Podrobny popis obrazku v HTML" img="11" />
+    <node title="Popiska obrazku 12" description="Podrobny popis obrazku v HTML" img="12" />
+  </set>
+  <set name="Galerie 3" img="13">
+    <node title="Popiska obrazku 13" description="Podrobny popis obrazku v HTML" img="13" />
+  </set>
+  <set name="Galerie 4" img="14">
+    <node title="Popiska obrazku 14" description="Podrobny popis obrazku v HTML" img="14" />
+  </set>
+  <set name="Galerie 5" img="15">
+    <node title="Popiska obrazku 15" description="Podrobny popis obrazku v HTML" img="15" />
+  </set>
+  <set name="Galerie 6" img="16">
+    <node title="Popiska obrazku 16" description="Podrobny popis obrazku v HTML" img="16" />
+  </set>
+  <set name="Galerie 7" img="17">
+    <node title="Popiska obrazku 17" description="Podrobny popis obrazku v HTML" img="17" />
+  </set>
+</galerie>

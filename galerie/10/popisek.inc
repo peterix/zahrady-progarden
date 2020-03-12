@@ -1,0 +1,1 @@
+Zahrada Klepačov u&nbsp;Blanska
