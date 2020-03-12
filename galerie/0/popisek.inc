@@ -1,1 +1,1 @@
-Malé zahrady
+Japonská zahrada

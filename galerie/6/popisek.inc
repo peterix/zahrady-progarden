@@ -1,1 +1,1 @@
-Zahrada 2
+Zahrada v&nbsp;nové zástavbě

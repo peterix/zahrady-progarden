@@ -1,1 +1,1 @@
-vysad1.jpg
+vyska-altan3.jpg

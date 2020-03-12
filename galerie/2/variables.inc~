@@ -1,0 +1,10 @@
+<?php
+$Bloky = array(
+0,"Zahrada v otevřené krajině",
+2,"",
+9,"a",
+13,"b",
+10,"c",
+4,"p",
+);
+?>

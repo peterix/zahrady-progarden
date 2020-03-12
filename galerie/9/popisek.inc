@@ -1,1 +1,1 @@
-Zahrada Praha
+Zahrada v otevřené krajině

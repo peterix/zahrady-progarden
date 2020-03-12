@@ -1,3 +1,3 @@
 <?php
-$PocetGalerii = 13;
+$PocetGalerii = 12;
 ?>

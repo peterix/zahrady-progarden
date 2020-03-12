@@ -1,4 +1,6 @@
 <?php
-$PocetBloku = 1;
-$Bloky =  array(12,"");
+$Bloky = array(
+3,"praha",
+15,"pred",
+);
 ?>

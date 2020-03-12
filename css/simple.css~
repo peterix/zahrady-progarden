@@ -1,0 +1,399 @@
+/*
+ Reset CSS
+*/
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+	border-collapse: separate;
+	border-spacing: 0;
+	border:0;
+	padding:0;
+}
+caption, th, td
+{
+	text-align: left;
+	font-weight: normal;
+	border:0;
+	padding:0;
+}
+
+table.faint
+{
+  border:1px solid blue;
+}
+
+
+/*
+ basic layout
+*/
+html, body
+{
+height:100%;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font: 400 0.8em georgia, serif;
+  line-height: 180%;
+  background:#364532;
+  color: black;
+  text-align:center;
+}
+table.envelope
+{
+  /*content width + borders*/
+  width:752px;
+  height:100%;
+  margin:auto;
+}
+
+table.envelope td.content
+{
+  /* This has to be tweaked when you change the menu sizes */
+  width: 736px;
+  background-color:#fffbee;
+  vertical-align:top;
+}
+table.envelope td.left-border
+{ 
+  width: 8px;
+  background: url(../img/bg/leftborder.png) repeat-y top center;
+}
+table.envelope td.right-border
+{ 
+  width: 8px;
+  background: url(../img/bg/rightborder.png) repeat-y top center;
+}
+
+div.textBlock
+{
+  width: 670px;
+  margin: auto;
+}
+
+img.headerImage
+{
+  padding:20px 0px 20px 0px;
+}
+
+/* galerie */
+.imag
+{
+	width : 132px;
+	height : 132px;
+	float: left;
+	text-align:center;
+    /*border: 1px solid black;*/
+}
+.imag img
+{
+	margin:auto;
+}
+.obal
+{
+	height : 134px;
+	position : relative;
+	display: block;
+	clear: both;
+}
+
+/* utility stuff */
+.noborder
+{
+  text-decoration: none !important;
+  border:none !important;
+}
+img.navleft
+{
+  text-decoration: none !important;
+  vertical-align:middle;
+  border:none !important;
+  margin-right:1em;
+}
+
+img.navright
+{
+  text-decoration: none !important;
+  vertical-align:middle;
+  border:none !important;
+  margin-left:1em;
+}
+
+
+img.navup
+{
+  text-decoration: none !important;
+  border:none !important;
+}
+
+
+/*
+ * some generic stuffs
+ */
+
+h1, h2, h3, h4, h5, h6, p, dl
+{
+  margin: 0px;
+  padding: 0;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.noclear {
+  clear: none;
+}
+
+h1
+{ 
+  margin-bottom: 0.4em;
+  clear: both;
+  font: 400 1.9em sans-serif;
+  color: #532406;
+}
+
+h2
+{
+  margin-bottom: 0.7em;
+  clear: both;
+  font: 800 1.3em sans-serif;
+  color: #336825;
+}
+
+h3
+{
+  font: 700 1.1em sans-serif;
+  color: #8F512A;
+}
+
+h4
+{
+  font: 400 0.9em sans-serif;
+  text-transform: uppercase;
+}
+
+a
+{
+  text-decoration: underline;
+  color:#336825;
+  /*border-bottom: 1px solid #336825;*/
+}
+
+a:hover
+{
+  color: #3C5D29;
+  text-decoration: underline;
+  /*border-bottom: 1px solid #4A6E35;*/
+}
+
+a img
+{
+  border:none;
+}
+a img.bordered
+{
+  border:1px solid #336825;
+}
+
+ul
+{
+  margin: 10px 30px;
+  padding: 0 30px 0 5px;
+  list-style: none;
+}
+
+ul li
+{
+  padding-left: 25px;
+  background: url(../img/bg/bullet.gif) no-repeat;
+  background-position: 0 3px;
+}
+
+ul ul li
+{
+  padding-left: 25px;
+  background: url(../img/bg/bullet2.gif) no-repeat !important;
+  background-position: 0 3px;
+}
+
+/**************************************************************
+   #menu: The top level site menu
+ **************************************************************/
+
+ul#menu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu li a
+{
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  font: 400 1.54em georgia, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  
+  color: #336825;
+  border-bottom: 3px solid #DED7C0;
+  border-top: 3px solid #336825;
+}
+
+ul#menu li a:hover {
+  color: #336825;
+  background-color: #DED7C0;
+}
+
+ul#menu li a.here
+{
+  color: #336825;
+  border-bottom: 3px solid #336825;
+}
+
+/* helper classes to control width of links in topbar */
+ul.two li a
+{
+  width: 50%;
+}
+
+ul.three li a
+{
+  width: 33%;
+}
+
+ul.four li a
+{
+  width: 25%;
+}
+
+ul.five li a
+{
+  width: 20%;
+}
+
+/**************************************************************
+   ceske odstavce
+ **************************************************************/
+
+p
+{
+  text-indent: 30px;
+  margin: 0px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+/**************************************************************
+   .footer: Site footer
+ **************************************************************/
+
+p.footer
+{
+  text-align: center;
+  text-indent: 0px;
+  margin: 0;
+  padding: 0;
+  border-top:thick double #BAAAA1;
+  font-size: 0.85em;
+  clear: both;   
+}
+
+/**************************************************************
+   Form Elements
+ **************************************************************/
+
+label {
+  float: left;
+  text-align: right;
+  width: 9em;
+  padding-right: 1em;
+}
+
+
+input,
+textarea,
+select {
+  padding: 4px;
+  font: 400 1em georgia, sans-serif;
+  
+  color: #666;
+  background: #FFF;
+  border-width: 1px;
+  border-style: solid;
+  width:100%;
+  border-color: #888 #DDD #DDD #888;  
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {  
+  padding: 3px;
+  color: #000;
+  background: #F1FFE3;
+  border-width: 2px;
+}
+
+input.button {
+  padding: 1px 10px;
+  width: 100px;
+  font: 400 1em georgia, sans-serif;
+  cursor: pointer;
+
+  color: #fff;
+  background: #336825;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B8E78B #2D5018 #2D5018 #B8E78B;
+  float: right;
+  margin-right:6px;
+}
+
+.required {
+  cursor: help;
+  border-bottom: 1px solid #CCC;
+}
+
+
+
+/**************************************************************
+   Images
+ **************************************************************/
+
+img.addborder
+{
+    padding: 5px;
+    background: #BAAAA1;  
+}
+
+img.addborder:hover
+{
+    background: #9D8F88;
+}
+
+img.floatRight
+{
+  margin: 5px 0px 10px 15px;
+}
+
+img.floatLeft
+{
+  margin: 5px 15px 10px 0px;
+}

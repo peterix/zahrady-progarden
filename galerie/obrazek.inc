@@ -1,11 +1,13 @@
-<table width="100%" align="center">
-<tr><td></td>
-<td width="640">
 <center>
 <?php
-echo("<img src=\"galerie/$g/images/$Obrazek.jpg\">");
+if(file_exists ( "galerie/$g/full/$Obrazek.jpg" ))
+{
+//echo("<a href=\"galerie/$g/full/$Obrazek.jpg\" rel=\"lightbox[front]\"><img class=\"addborder\" src=\"galerie/$g/images/$Obrazek.jpg\" /></a><br />&nbsp;");
+echo("<a href=\"galerie/$g/full/$Obrazek.jpg\" target=\"_blank\"><img class=\"addborder\" src=\"galerie/$g/images/$Obrazek.jpg\" /></a><br />&nbsp;");
+}
+else
+{
+echo("<img class=\"addborder\" src=\"galerie/$g/images/$Obrazek.jpg\" /><br />&nbsp;");
+}
 ?>
 </center>
-</td>
-<td></td></tr>
-</table>

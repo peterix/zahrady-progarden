@@ -1,4 +1,5 @@
 <?php
-$PocetBloku = 1;
-$Bloky =  array(18,"");
+$Bloky = array(
+17,"male_zahrady",
+);
 ?>

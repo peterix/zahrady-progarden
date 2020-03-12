@@ -1,32 +1,35 @@
-<!-- IE je zlo, bez tohohle komentare rozhodi layout -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
 <head>
-  <title>Zahrady ProGarden - Kontakt</title>
+  <title>Zahrady ProGarden - návrhy zahrad a zahradní architektura</title>
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta name="robots" content="index, follow, noarchive" />
-  <meta name="googlebot" content="noarchive" />
-  <link rel="stylesheet" type="text/css" href="css/html.css" media="screen, projection, tv" />
-  <link rel="stylesheet" type="text/css" href="css/layout.css" media="screen, projection, tv" />
-  <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-  <!--[if gt IE 5]>
-  <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen, projection, tv " />
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="css/simple.css" media="screen, projection, tv " />
+
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+  
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+  <script src="js/lightbox.js" type="text/javascript"></script>
 </head>
 <body>
-<div id="wrapper">
-  <div id="content">
-    <div id="header">
-      <h1><img src="img/logo1_s.png" alt="Pro Garden" align="left"></h1><br clear="both" />
-    </div>
-    <?php 
+<table class="envelope" cellspacing="0"><tr>
+  <!-- left spanner -->
+  <td class="spanner"></td>
+  <!-- left border -->
+  <td class="left-border"></td>
+  <!-- center -->
+  <td class="content">
+    <img class="headerImage" src="img/header.png" alt="Pro Garden - ateliér zahradní tvorby" />
+    <?php
       include "menu.inc";
       paintMenu('kontakt');
     ?>
-    <div id="page">
+    <!-- actual content goes here -->
+    <div class="textBlock">
+&nbsp;
 <h2>Ing. Edita Mrázková</h2>
-<a href="#" title="I takoto může vypadat Vaše zahrada"><img class="floatRight" src="img/photos/01_resize.JPG" alt="Popisek obrázku"></a>
+<!--<a href="#" title="I takoto může vypadat Vaše zahrada"><img class="floatRight" src="img/photos/01_resize.JPG" alt="Popisek obrázku"></a>-->
 <table>
 <tr>
 <td width="100px" valign="top">Adresa:</td><td>Svatá Kateřina 6<br />Šebrov-Kateřina<br />67801 Blansko</td></tr>
@@ -156,12 +159,20 @@ echo("
 }
 ?>
 </form>
-      <p class="footer">
-        <?php include "footer.inc"; ?>
-      </p>
+&nbsp;
     </div>
-  </div>
-</div>
+    <!-- actual content ends here -->
+    <p class="footer">
+      <?php include "footer.inc"; ?>
+    </p>
+
+  </td>
+  <!-- right border -->
+  <td class="right-border"></td>
+  <!-- right spanner -->
+  <td class="spanner"></td>
+</tr></table>
+<!-- Google Tracking -->
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -172,4 +183,4 @@ var pageTracker = _gat._getTracker("UA-12596361-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
 </body>
-</html>
+</html> 
